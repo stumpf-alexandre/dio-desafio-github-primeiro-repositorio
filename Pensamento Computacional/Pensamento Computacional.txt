@@ -1,0 +1,15 @@
+Pensamento Computacional
+Habilidade geral de formular e resolver problemas, da forma que pessoas e computadores 
+venham a entender. Baseado em 4 pilares:
+	- Decomposição -> consiste em pegar um problema muito complexo para dividi-lo em 
+segmentos ou subproblemas.
+	- Reconhecimento de padrões -> identifica padrões ou tendencias dentro do problema 
+ou problemas distintos.
+	- Abstração -> extrapolar o conceito do problema para uma forma generalista, 
+observando-os, para avaliar suas características e problemas em separado.
+	- Design de algoritmos -> definir passo a passo a solução do problema.
+Para resolver um problema não é preciso utilizar todos os pilares  do pensamento 
+computacional.
+Além dos pilares para solucionar os problemas, também é preciso utilizar os processos 
+contínuos, que formam um ciclo de definir uma solução, testar a solução e aperfeiçoar a 
+solução encontrada, até resolver o problema.
