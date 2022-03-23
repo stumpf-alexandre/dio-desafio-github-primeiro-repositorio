@@ -1,0 +1,61 @@
+Introdução ao Git e ao GitHub
+Comandos básicos do git no CLI para:
+	- Listar as pastas: no Windows DIR, no Linux LS
+	- Criar pastas/ arquivos: no Windows MKDIR nome da pasta, no Linux MKDIR nome da 
+pasta/
+	- No Windows ECHO HELLO > HELLO.TXT(redireciona o fluxo para um arquivo), no Linux 
+ECHO HELLO > HELLO.TXT(redireciona o fluxo para um arquivo) 
+	- Deletar pastas/ arquivos: no Windows RMDIR nome da pasta /S /Q, no Linux RM -RF 
+nome da pasta / no Windows DEL nome da pasta ou nome do arquivo(na pasta só deleta os 
+arquivos)
+	- Sair para a pastas raiz: no Windows CD /, no Linux CD /
+	- Entrar em uma pasta: no Windows CD nome da pasta, no Linux CD nome da pasta
+	- Retroceder um nível: no Windows CD .., no Linux CD ..
+ 	- Limpar o terminal: no Windows CLS, no Linux CLEAR
+
+Como o Git Funciona por Baixo dos Panos- 
+	- SHA1: algoritmo de encriptação que gera conjunto de caracteres identificador de 
+40 dígitos
+	- Objetos Fundamentais:
+		Blobs: guarda metadados juntamente com os objetos do usuário, guarda o SHA1 
+do arquivo
+		Tree: armazena Blobs e também aponta para outros Blobs ou até mesmo para 
+outras Trees, ela guarda o nome do arquivo e também metadados, ela é responsável por montar 
+toda a estrutura do arquivo, elas também possuem SHA1 dos metadados.
+		Commit: aponta para uma Tree, para o ultimo Commit feito, montando assim uma 
+linha do tempo, para um autor, para uma mensagem. O Commit também possui SHA1 de seus 
+metadados
+	- Sistema Distribuído:
+	- Segurança:
+
+Chave SSH – processo mais seguro para se identificar, é uma forma segura e encriptada de manter a comunicação entre duas maquinas, através de uma chave publica e outra privada.
+
+git init: cria-se o repositório no git
+git add: mover arquivos e dar inicio ao versionamento GIT ADD “nome do arquivo” ou GIT ADD * ou GIT ADD . adiciona todos os arquivos independente de onde estão
+git commit: da o primeiro commit
+
+ls -a: mostra pastas ocultas
+git config –global –unset user.email: apaga o email configurado no github
+git config –global –unset user.name: apaga o nome configurado no github
+git config –global user.email “als.stumpf@gmail.com”: configura o email do usuário no github.
+git config –global user.name stumpf-alexandre: configura o nome do usuário no github.
+git config –list: tras a lista de todas as configurações do github
+git remote add origin link que o github fornece ao criar o repositório: adiciona a origem do git para o github.
+git remote -v: mostra a lista de repositórios remotos cadastrados.
+git push origin master: empurra o repositório local para o repositório remoto
+git pull origin master: pucha o repositório remoto para deixar o repositório local iguais.
+git clone link do github: baixa todo o repositório do github
+MV nome do arquivo ./nome da pasta/
+
+Untracked são arquivos que o git não tem noção da existência
+Tracked são arquivos que o git tem noção da existência deles, são divididos em:
+	- Unmodified: é o arquivo que não sofreu modificação.
+	- Modified: é o arquivo unmodified que sofreu modificação.
+	- Staged: é um conceito de um arquivo que entra em uma área que está esperando 
+alguma ação.
+Entre esses três estágios o arquivo fica rodando em ciclos.
+No ambiente de desenvolvimento temos o working directory, que apartir de quando for dado o 
+git add o arquivo passa para a staging área e assim fica intercalando entre as duas até 
+quando for feito um commit, ai o arquivo passa da staging área para a local repositor. 
+Já no servidor temos o remote repositor e através de comandos específicos fazemos uma copia 
+do local repositor para o remote repository.
