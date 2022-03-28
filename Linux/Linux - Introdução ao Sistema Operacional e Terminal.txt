@@ -1,0 +1,56 @@
+Linux: Introdução ao Sistema Operacional e Terminal
+Criado em 1991 por Linus Torvalds o Linux é o Kernel ou núcleo do Sistema Operacional. Possuímos o hardware, ai entra o kernel e só após vem o Shell “Sistema Operacional”.
+O Linux é multitarefa/multiusuário e é desenvolvido em varias versões, por varias empresas.
+O Ubuntu é um Sistema Operacional de código aberto que é desenvolvido pela Canonical com base no Kernel Linux, tem bases no Debian e hoje é muito aceito por muitas comunidades de usuários.
+O Terminal, Shell ou Konsole é onde damos as linhas de comandos para executar programas específicos. A maioria dos comandos são iguais em diversas distribuições.
+CTRL+ALT+T: abre o terminal
+pwd: tras o caminho que estamos no momento no terminal
+dir: lista os diretórios dentro da pasta que estou
+ls: lista os arquivos e diretórios da pasta que estou
+ls nome da pasta: lista arquivos e diretórios da pasta especificada
+ls -l: lista diretórios e arquivos com detalhes
+ls dir: lista outros diretórios que não o corrente
+cd nome da pasta: entra na pasta que foi dado o nome
+cd ..: retorna um diretório anterior
+cd /: retorna ao diretório raiz
+cd ~:volta para a pasta pessoal ou pasta do usuario
+mkdir nome da pasta: cria uma nova pasta
+man + o nome do comando: retorna o manual do comando especificado
+nome do comando –help: traz o manual do comando especificado em português na maioria dos comandos
+history ou !!: lista todos os comandos utilizados no terminal utilizados durante a execução do ubuntu
+
+ATALHOS DO TERMINAL
+Ctrl+C: cancela o comando atual em funcionamento
+Ctrl+Z: pausa o comando atual, em primeiro plano ou segundo plano
+Ctrl+D: faz o logout da sessão atual
+Ctrl+W: apaga uma palavra na linha atual
+Ctrl+U: apaga a linha inteira
+Ctrl+R: busca um comando recente
+!!: repete o último comando
+exit: sai do terminal
+mv  “nome da pasta” “ novo nome da pasta”: renomeia um arquivo
+mv “nome da pasta do repositório” “nome da pasta que ela deve ser movida”
+touch “nome do arquivo e sua extenção”: cria arquivos vazios
+cp ou compy “nome do arquivo com a extenção” “nome da pasta que vai ser feita uma cópia”:
+copia o arquivo para a pasta especificada
+clear: limpa o terminal
+rmdir “nome da pasta”: remove a pasta
+rm “nome do arquivo”: remove o arquivo
+
+
+Exercícios Práticos de Revisão
+1) Abra o Terminal
+2) Crie uma Pasta de nome Ubuntu dentro da Pasta Documentos
+3) Mova esta Pasta para o diretório Pessoal
+4) Crie um arquivo vazio de nome teste.txt dentro da Pasta Ubuntu
+5) Renomeie este Arquivo como linux.txt
+6) Crie uma cópia deste arquivo na Pasta Downloads
+7) Exiba todos os comandos digitados no Terminal
+8) Execute a ajuda do comando ls
+9) Execute o manual do comando mv
+10) Pare a execução do manual
+11) Saia do Terminal utilizando sequência de teclas
+12) Exclua a pasta Ubuntu
+13) Exclua o arquivo linux.txt
+14) Limpe o terminal
+15) Utilize o comando para sair do terminal

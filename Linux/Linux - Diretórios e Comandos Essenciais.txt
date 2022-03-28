@@ -1,0 +1,81 @@
+Linux: Diretórios e Comandos Essenciais
+nano “nome do arquivo com a extenção”: abre o editor do terminal
+Ctrl + G: arquivo de ajuda do nano
+Ctrl + X: sai do arquivo de ajuda
+Ctrl + J: coloca todo o texto junto
+Alt + U: desfaz o que foi feito
+Alt + E: refaz o que foi desfeito
+Alt + A: marca todo o texto
+Alt +6: copia o texto selecionado
+Ctrl + U: cola o texto
+Ctrl + T: verifica a ortografia
+Ctrl + \: substitui palavras
+Ctrl + O: salva as modificações
+Ctrl + X: sai do nano
+
+
+cat “nome do artquivo com a extenção”: abre a saída do arquivo no terminal
+tac “nome do arquivo com a extenção”: abre a saída do arquivo no terminal só que de traz para frente as linhas
+head “nome do arquivo com a extenção”: abre as 10 primeiras linhas do arquivo no terminal
+tail  “nome do arquivo com a extenção”: abre as 10 ultimas linhas do arquivo no terminal
+tail “nome do arquivo com a extenção” > “nome de outro arquivo com a extenção”: copia as 10 ultimas linhas do 1º arquivo em um novo arquivo
+head “nome do arquivo com a extenção” > “nome de outro arquivo com a extenção”: copia as 10 primeiras linhas do 1º arquivo em um novo arquivo
+cal: abre o calendário no terminal
+date: abre o dia corrido com detalhes de dia, mês, horas, ano, dia da semana, etc
+nome do comando >> “nome do arquivo com a extenção”: acrescenta os dados do comando aos dados do arquivo
+nome do comando > “nome do arquivo com a extenção”: troca os dados do arquivo pelos dados do comando
+>:redireciona a saída de um comando para outro comando ou arquivo
+>>: redireciona a saída e adiciona a mesma para um comando ou arquivo
+<:direciona a entrada de um arquivo para a saída de um comando
+|: serve para utilizar dois comandos juntos(envia a saída de um comando para a entrada de outro comando, permitindo execução de dois comandos)
+grep “palavra que você quer marcar”: marca a palavra de um arquivo que você esta procurando
+more: faz a paginação de texto grande
+less: faz a paginação de texto grande
+UTILIZANDO | E grep JUNTOS
+tail “nome do arquivo com a extenção” | grep “palavra que você procura”
+
+&: executa dois comandos e separa por terminal as saídas de cada arquivo
+cat “nome do arquivo com extenção” & cat “nome de outro arquivo com extenção”
+
+&&: executa dois comandos e a saída dos dois comandos aparecerá juntas se o primeiro comando for executado normalmente
+cat “nome do arquivo com extenção” && cat “nome de outro arquivo com extenção”
+
+file “nome do arquivo com extenção ou nome da pasta”: traz na saída o tipo de arquivo
+whatis “nome de um comando”: fala o que o comando faz
+find -name ”nome do arquivo com extenção”: traz o caminho do arquivo pesquisa
+
+Exercícios de Revisão
+1) Crie uma pasta de nome Exercícios e Acesse a mesma
+2) Crie um arquivo vazio de nome lista_nomes.txt
+3) Abra este arquivo com o Editor Nano
+4) Digite 20 Nomes de Pessoas Conhecidas incluindo o seu, pulando de linha para cada nome inserido.
+5) Salve o arquivo
+6) Exiba os 10 primeiros Nomes da Lista
+7) Exiba os 10 ultimos Nomes da Lista
+8) Procure no texto o seu nome
+9) Crie um Arquivo chamado setembro.txt com a saida do comando cal.
+10) Adicione o conteúdo do arquivo setembro.txt ao arquivo lista_nomes.txt
+11) Exiba o arquivo lista_nomes.txt com paginação
+12) Exiba o caminho do arquivos setembro.txt
+13) Exiba o tipo do arquivo lista_nomes.txt
+14) Exiba a explicação do comando ls
+15) Renomeie o Arquivo lista_nomes.txt para arquivo.txt
+16) Limpe o Terminal
+17) Saia do Terminal
+Diretórios do Linux
+Cat/proc/cpuinfo: arquivo de informações do processador
+Lscpu: exibe informações do processador
+Cat/proc/meminfo: arquivo de informação da memória
+Free: exibe informações da memória física e virtual
+Lshw: exibe informações detalhadas sobre o hardware
+Lshw –short: exibe informações do hardware
+Uname: exibe o nome do kernel do sistema
+Uname –r: exibe a versão do kernel
+Uname –m: exibe a arquitetura do kernel
+Arch: exibe a arquitetura do kernel
+Lspci: exibe todas as placas PCIs conectadas
+Lsusb: exibe todos os dispositivos USBs conectados
+Du –h ~:exibe o espaço que cada arquivo e pasta no diretório pessoal consome no hd
+Reboot: reinicia o sistema
+Shutdown –r: reinicia o sistema
+Shutdown –h now: desliga rapidamente

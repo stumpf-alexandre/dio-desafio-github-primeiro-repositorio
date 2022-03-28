@@ -1,0 +1,91 @@
+Linux: Fundamentos de Redes e Comandos Avançados
+IP – numero que identifica seu computador em uma rede
+ICMP – tem por objetivo promover mensagens de controle na comunicação entre nós
+DNS – esse protocolo tem por função identificar endereços IP e manter uma tabela com os endereços dos caminhos de algumas redes
+Interface de rede é um software e/ou hardware que faz a comunicação em uma rede de computadores
+As interfaces de rede no Linux estão localizadas no diretório /dev e a maioria é criada dinamicamente pelos softwares quando são requisitados.
+Ex.: eth0 – placa de rede Ethernet – cabeada.
+A interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo, com ela, você pode testar vários programas de rede sem interferir em sua rede. Padrão, o endereço IP 127.0.0.1 foi escolhido para loopback.
+
+Ifconfig: comando para trazer dados sobre ip da maquina, ip local, mascara de sub rede, entre outros
+Hostname: comando que traz o nome do computador na rede
+Hostname -I: comando que traz o endereço de IP da maquina
+Hostname -i: comando que traz o loopback da maquina ou o IP local
+W: exibe informações detalhadas do usuário logado
+Who: comando que traz como estamos logados na rede
+Whoami: comando que traz o nome de usuário logado na rede
+Ping: envia mensagens de controle para determinados roost, vendo se este roost esta ativo ou inativo
+Ex.: 	ping www.google.com
+	Ping www.google.com -w4
+
+Dig: nos da toda a informação dos caminhos DNS
+Ex.: 	dig www.google.com
+	Dig www.google .com +short
+
+Tracerouter: traça a rota de onde estamos ate o roost que usamos
+Ex.: traceroute www.google.com
+
+Whois: traz mais informações sobre determinado root
+Ex.:whois www.pudinm.com.br
+
+Finger: mostra toda a informação do usuário que esta logado no roost
+
+
+Exercícios Práticos
+1) Crie um arquivo de aularedes.txt
+2) Exiba o número de IP da rede no terminal
+3) Adicione a saída do comando anterior ao arquivo aula redes.txt
+4) Exiba o número de IP Loopback no terminal
+5) Adicione a saída do comando anterior ao arquivo aula redes.txt
+6) Exiba Informações DNS sobre o host www.pudim.com.br
+7) Adicione a saída do comando anterior ao arquivo aula redes.txt
+8) Exiba Informações do Usuário logado na rede
+9) Adicione a saída do comando anterior ao arquivo aula redes.txt
+10) Execute um teste no host www.pudim.com.br com 6 pacotes
+11) Adicione a saída do comando anterior ao arquivo aula redes.txt
+12) Trace a Rota do seu computador até o host www.pudim.com.br
+13) Adicione a saída do comando anterior ao arquivo aula redes.txt
+14) Exiba Informações sobre Interfaces de Rede e Endereços IP no terminal
+15) Adicione a saída do comando anterior ao arquivo aula redes.txt
+16) Limpe o terminal
+17) Imprima o arquivo aularedes.txt com paginação no terminal
+
+
+History: mostra o histórico de todos os comandos feito no terminal
+History -c: apaga todo o histórico do terminal
+Alias: da um novo nome de comando para os comandos
+Ex.: alias hh=’history
+
+Nl “nome do arquivo com extenção”: da o numero de linhas que o arquivo tem
+Wc -l nome do arquivo com extenção: da o numero de linhas com as linhas em branco
+Wc -w nome arquivo com extenção: da o numero de palavras
+Wc – c “nome arquivo com extenção”: da o numero de bits
+Wc -m “nome arquivo com extenção”: da o numero de caracteres
+Ls -a: mostra os arquivos ocultos
+Cmp “nome arquivo com extenção” “nome de outro arquivo com extenção”: faz uma comparação entre o primeiro arquivo e o segundo
+Diff “nome arquivo com extenção” “nome de outro arquivo com extenção”: traz outras diferenças entre os dois arquivos
+Sort -n “nome arquivo com extenção”: organiza de forma crescente os números no arquivo
+Last reboot: mostra todas as reinicializações feitas no sistema
+Route – n: tras todas as tabelas de roteamento de IP do Kernel
+Time comando root: mostra o tempo de um processo
+Ex.: time traceroute www.google.com	
+
+Uptime: mostra o tempo que o  sistema esta rodando
+Cowsay: mostra uma vaca falando uma frase
+Ex.:	cowsay “frase”
+	Cowsay -d “frase”
+	Cowsay -g “frase”
+	Cowsay -f tux “frase”
+	Cowsay -f vader “frase”
+	Cowsay -f tux vader-koala “frase”
+	Cowsay -f dragon “frase”
+	Xcowsay “frase”
+Cmatrix
+
+Init 0: desliga a maquina agora
+Telinit 0: desliga a maquina agora
+Halt: pede uma altenticação para desligar a maquina
+Seq numero numero: imprime uma sequencia de números do primeiro que se insere até chegar no segundo que se insere
+Whereis “nome do comando”: traz o caminho do comando e o manual do comando
+Which “nome do programa”: exibe o caminho do programa
+Logout:finaliza uma sessão
