@@ -6,3 +6,4 @@ Repositório criado para o Desafio de Projeto
 * [VMWare Worstation Player](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=PLAYER-1557&productId=800&rPId=55787)
 * [Ubuntu LTS](https://ubuntu.com/download/desktop)
 * [Guia OnLine apostilas Linux](https://guiafoca.org/)
+* [Fedora 35](https://getfedora.org/pt_BR/)
