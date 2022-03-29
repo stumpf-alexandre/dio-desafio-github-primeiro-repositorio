@@ -7,3 +7,5 @@ Repositório criado para o Desafio de Projeto
 * [Ubuntu LTS](https://ubuntu.com/download/desktop)
 * [Guia OnLine apostilas Linux](https://guiafoca.org/)
 * [Fedora 35](https://getfedora.org/pt_BR/)
+* [Packages Search for Linux and Unix](https://pkgs.org/)
+* [RPM.pbone.net](http://rpm.pbone.net/)

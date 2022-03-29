@@ -1,0 +1,22 @@
+Linux: Gerenciamento de Pacotes
+Pacotes são programas colocados dentro de um arquivo identificados por sua extensão, e incluem arquivos necessários para a instalação de programas.
+Ex.: pacotes com extensão .deb, .rpm e outros.
+Gerenciadores de pacotes são sistemas que possuem resolução automática de dependências entre pacotes, m´todo fácil de instalação de pacotes.
+Ex.: dpgk, apt e yum.
+Sudo é a permição de super usuariosudo dpkg 
+Apt faz a instalação e atualização de pacotes
+Sudo apt install pacote: instala o pacote
+Sudo apt upgrade pacote: atualiza o pacote
+Sudo apt remove pacote: remove o pacote
+Sudo dpkg -i pacote: instalação do pacote com extenção .deb
+Sudo dpkg -I pacote.deb: traz informações do pacote
+Sudo dpkg -r nome do pacoteremove o pacorpmrpm -e
+Sudo su: quando precisamos ser usuários root, para elevar nosso privilégio
+Sudo apt update && apt upgrade: faz a atualização de todo o sistema e seus programas
+Rpm -ivh pacote.rpm: para instalar pacotes rpm
+Rpm -ivh –nodeps pacote.rpm: para instalar pacote rpm quando falhar nas dependências
+Rpm -U pacote.rpm: atualização do pacote rpm
+Rpm -e pacote.rpm: desinstala o pacote rpm
+Yum install pacote: faz o download e faz a instalação do pacote
+Yum update pacote: faz a atualização do pacote
+Yum remove pacote: remove o pacote
