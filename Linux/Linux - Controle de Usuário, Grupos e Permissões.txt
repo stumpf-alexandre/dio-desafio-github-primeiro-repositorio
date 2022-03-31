@@ -1,0 +1,54 @@
+Linux: Controle de Usuário, Grupos e Permissões
+Adduser “nome do usuario”: adicionar usuário
+Su “nome do usuario”: trocar de usuário
+Passwd nomedousuario: alterar senha do usuário
+Lastlog: exibir informações de login dos usuários
+Last: exibe uma listagem de entrada e saída do usuário no sistema
+Logname: exibir o nome do usuário atual logado no sistema
+Id: exibir todos os identificadores do usuário
+Cat /etc/passwd: exibir todos os usuários
+Userdel -r nomedousuario: remover um usuário e a pasta pessoal do mesmo
+
+Grupos – permitem organizar os usuários e definir as permissões de acesso a arquivos e diretórios de forma mais fácil.
+
+Cat /etc/group: exibe todos os grupos do sistema
+Goups: exibe todos os grupos de um usuário
+Addgroup: criar um grupo
+Adduser usuário grupo: adiciona um usuário a um grupo
+Gpasswd -a usuário grupo: adiciona um usuário a um grupo
+Gpasswd -d usuário grupo: remove um usuário de um grupo
+Groupdel grupo: remover um grupo
+
+Permissões – em arquivos e diretórios servem para restringir acesso como: leitura, escrita e execução, onde
+R – read (leitura)
+W – write (escrita)
+X – execution (execução)
+
+Ls -lh: verificar permissões em um diretório
+Chmod: mudar a permição de um arquivo ou diretório
+
+Modo Octal – a máscara octal é composta por números sob a base 8 ou seja de 0 a 7 e é considerado o mais fácil para executar onde:
+O primeiro dígito representa o dono do ficheiro/diretório (u).
+O segundo dígito representa o grupo (g)
+O terceiro dígito representa os outros (o)
+As permissões são especificadas para cada grupo
+
+Compactadores – são programas que diminuem o tamanho de um arquivo ou diretório.
+As extensões identificam o tipo de um arquivo e o programa necessário para manipular o mesmo, dezenas de extensões identificam arquivos compactados, quando um arquivo é compactado, uma extensão é adicionada ao nome do arquivo.
+Ex.: se um arquivo é compactado pelo programa rar, o mesmo receberá a extensão .rar.
+Ao descompactar a extensão é removida desse arquivo.
+Gzip – compactador muito usado, possui uma taxa excelente de compactação.
+Gzip nome arquivo.txt: comando para compactar
+Gzip -9 nome arquivo.txt: usa a compactação máxima
+Gunzip nome arquivo.txt.gz: comando para descompactar
+Zip – muito usado no Windows e no Linux
+Zip nome arquivo.zip nome arquivo.txt: comando para compactar
+zip nome arquivo1.txt nome arquivo2.txt nome arquivo3.txt: compacta mais do que um arquivo em um arquivo zipado
+Unzip nome arquivo.zip
+Rm nome arquivo.zip: apaga o arquivo
+Bzip2 – compactador mais atual
+Bzip2 nome arquivo.txt: compacta o arquivo
+Bzip2 -d nome arquivo.bz2: descompacta o arquivo
+Rar – necessita ser instalado na primeira utilização
+Sudo apt install rar
+Rar a nome arquivo.txt
