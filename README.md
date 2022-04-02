@@ -10,3 +10,5 @@ Repositório criado para o Desafio de Projeto
 * [Packages Search for Linux and Unix](https://pkgs.org/)
 * [RPM.pbone.net](http://rpm.pbone.net/)
 * [Linux que roda no Navegador da Internet](https://bellard.org/jslinux)
+* [Baixando Python no Sistema](https://www.python.org/)
+* [Baixando IDE para progamar em Python](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)
