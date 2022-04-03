@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97644a78-33d4-4d44-8724-9f01436646cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonProject/aula9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/aula10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +38,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.aula9">
-    <configuration name="aula7_televisao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.aula10">
+    <configuration name="aula10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +51,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/aula7_televisao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/aula10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula10" />
         <item itemvalue="Python.aula9" />
         <item itemvalue="Python.aula8_lambda" />
         <item itemvalue="Python.aula8_importacao" />
         <item itemvalue="Python.aula8_contador_letras" />
-        <item itemvalue="Python.aula7_televisao" />
       </list>
     </recent_temporary>
   </component>
