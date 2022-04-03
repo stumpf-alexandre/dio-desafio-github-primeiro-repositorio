@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97644a78-33d4-4d44-8724-9f01436646cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonProject/aula11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonProject/aula11_personalizar_excecao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/aula12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.aula11_personalizar_excecao">
+  <component name="RunManager" selected="Python.aula12">
     <configuration name="aula10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aula8_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aula12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/aula8_lambda.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/aula12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula12" />
         <item itemvalue="Python.aula11_personalizar_excecao" />
         <item itemvalue="Python.aula11" />
         <item itemvalue="Python.aula10" />
         <item itemvalue="Python.aula9" />
-        <item itemvalue="Python.aula8_lambda" />
       </list>
     </recent_temporary>
   </component>
