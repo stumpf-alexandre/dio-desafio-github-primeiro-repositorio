@@ -1,0 +1,27 @@
+Pensamento Computacional com Python
+São os processos de pensamentos envolvidos na formulação de um problema e que expressam sua 
+solução ou soluções eficazmente, de tal forma que uma máquina ou uma pessoa possam realizar. 
+Processo de reconhecer aspectos da computação em um mundo que nos cerca e, aplicar 
+ferramentas e técnicas da Ciência da Computação para entender e argumentar sobre sistemas e 
+processos naturais e artificiais.
+É dividido em 4 pilares:
+Abstração -> ação de ignorar os detalhes de uma solução de modo que ela possa ser válida para 
+diversos problemas. É isolar aspectos relevantes de um todo e considerá-lo de forma 
+individual. Na computação quando pensamos em criar um software, pensamos primeiro no que ele 
+deve ser deixando os detalhes para depois.
+Decomposição -> ação de dividir um problema maior em partes menores. A ideia é resolver as 
+partes do problema para então obter uma resposta do problema maior. Na computação quando 
+escrevemos algum software ou código geralmente dividimos a escrita em partes menores que vão 
+sendo construídas aos poucos.
+Pensamento Algorítmico -> ação de pensar a solução de um problema a partir de uma sequência 
+finita de passos. Na computação quando escrevemos um código, descrevemos passo-a-passo o que 
+aquele código deve fazer. Se o código não resolve o problema é possível checar onde está o 
+erro fazendo um teste de mesa.
+Identificação de Padrões -> ação de descrever o que vai acontecer com base em eventos 
+anteriores. Na computação é comum utilizar estruturas de repetição, por exemplo, para blocos 
+de código semelhantes que se repetem de alguma forma.
+Por que praticar:
+- Letramento digital e mundo digitalizado
+- Resolução de problemas e tomada assertiva de decisão
+- BNCC e tecno-pedagogia
+- Bônus pra quem programa!!!

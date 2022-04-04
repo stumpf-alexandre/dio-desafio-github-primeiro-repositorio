@@ -12,3 +12,5 @@ Repositório criado para o Desafio de Projeto
 * [Linux que roda no Navegador da Internet](https://bellard.org/jslinux)
 * [Baixando Python no Sistema](https://www.python.org/)
 * [Baixando IDE para progamar em Python](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)
+* [Slide da aula Pensamento Computacional](https://docs.google.com/presentation/d/1l-nKxIeUMLg26xthH27g5OAiaWz7r5Zs/edit?usp=sharing&ouid=114027159488464854873&rtpof=true&sd=true)
+* [Repl.it interpretador online para várias linguagens](https://replit.com/)
