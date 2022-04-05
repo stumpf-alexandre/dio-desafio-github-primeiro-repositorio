@@ -14,3 +14,5 @@ Repositório criado para o Desafio de Projeto
 * [Baixando IDE para progamar em Python](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)
 * [Slide da aula Pensamento Computacional](https://docs.google.com/presentation/d/1l-nKxIeUMLg26xthH27g5OAiaWz7r5Zs/edit?usp=sharing&ouid=114027159488464854873&rtpof=true&sd=true)
 * [Repl.it interpretador online para várias linguagens](https://replit.com/)
+* [MD5 para encriptação e decriptação de Hash](https://md5decrypt.net/en/)
+* [Documentação do Python](https://docs.python.org/)
